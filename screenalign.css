@@ -17,6 +17,7 @@
         .div{display: block;padding-top: 30px;padding-left: 20px;padding-bottom: 20px;}
         .topices1{height:350px;width: 280px;transition: none;cursor:none;}
         .topices1:hover{transform:none;}
+        .para{font-size: 18px;}
         #image{height: 130px;width: 220px;border-radius: 0px 0px 0px 0px;}
         #desi{margin-top: 20px;width: 280px; }
         .share{padding:10px 0px 10px 20px;}
@@ -45,8 +46,8 @@
         .question4{padding-left: 10px;font-size: 15px;}
         .question5{padding-left: 15px;font-size: 15px;}
         .getintouch0{padding-top: 320px;}
-        .getintouch1{height:520px;}
-        .getintouch2{padding:0px 0px 0px 50px;}
+        .getintouch1{height:600px;}
+        .getintouch2{padding:30px 0px 0px 50px;}
         .getintouch3{font-size: 35px;}
         .googlemap0{display: inline;}
         .googlemap1{margin-left:3px ;width: 310px;height: 150px;}
@@ -73,16 +74,22 @@
         .Browse{margin-left: 30px;}
         .design1{margin-left:20px ;}
         .getintouch3{padding-left:50px ;}
+        .getintouch2{padding-top: 30px;}
+        .getintouch1{height: 600px;}
         .googlemap1{margin-left: 15px;}
     }
     @media screen and (min-width:425px) and (max-width:729px){
         .searchdiv{margin-left: 55px;}
         .topices1{margin-left: 20px;padding-right:80px;}
-        #image{width:300px;}
+        .webdesign{margin-left: 10px; font-size: 28px;}
+        .para{padding-top: 10px;padding-left: 50px;}
+        #image{margin-left: 20px; width:250px;height: 150px;border-radius: 5px;}
         .design{margin-left: 20px;}
         .design1{padding-right:55px;} 
         .design5{width:300px;}
+        .getintouch1{height: 600px;}
         .getintouch3{padding-left:70px ;}
+        .getintouch2{padding-top: 30px;}
         .googlemap1{margin-left: 30px;}
         .Browse{margin-left: 60px;}
     }

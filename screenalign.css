@@ -42,6 +42,7 @@
         .question1{padding-bottom: 30px;font-size: 25px;}
         .image0{display: grid;grid-template-columns:1fr;}
         .image02{padding-left:0px;height: 350px;width: 300px;}
+        .align{justify-items: center;}
         .question3{padding-top: 5px;height: 50px;width:310px;cursor: none;}
         .question4{padding-left: 10px;font-size: 15px;}
         .question5{padding-left: 15px;font-size: 15px;}
@@ -51,9 +52,11 @@
         .getintouch3{font-size: 35px;}
         .googlemap0{display: inline;}
         .googlemap1{margin-left:3px ;width: 310px;height: 150px;}
-        .googlec1{padding-left: 5px;font-size: 20px;}
-        #address1{font-size: 15px;}
-        .address{padding:10px 0px 0px 10px;font-size:15px;cursor: none;}
+        .headoffice{margin-top: 10px;}
+        .headoffice1{margin-top:10px;}
+        .googlec1{padding-left: 15px;font-size: 20px;}
+        #address1{font-size: 15px;padding-left: 15px;}
+        .address{padding:10px 0px 0px 15px;font-size:15px;cursor: none;}
         .hr2{margin-top: 10px;margin-left: 10px;}
         .details{padding:10px 0px 0px 10px;}
         #phone{font-size:10px;}
@@ -82,7 +85,7 @@
         .searchdiv{margin-left: 55px;}
         .topices1{margin-left: 20px;padding-right:80px;}
         .webdesign{margin-left: 10px; font-size: 28px;}
-        .para{padding-top: 10px;padding-left: 50px;}
+        .para{padding-top: 10px;padding-left: 25px;}
         #image{margin-left: 20px; width:250px;height: 150px;border-radius: 5px;}
         .design{margin-left: 20px;}
         .design1{padding-right:55px;} 
@@ -105,6 +108,7 @@
         #desi{margin-top: 0px;}
         .design{display:flex;flex-wrap: wrap;gap:30px;justify-content: center;padding-left: 0px;}
         .image0{display:flex;flex-wrap: wrap;gap:30px;}
+        .align{margin-left:50px;}
         .getintouch0{padding-top: 30px;}
         .getintouch3{margin-left: 250px;}
         .googlemap1{margin-left:120px;}

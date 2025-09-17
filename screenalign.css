@@ -1,9 +1,11 @@
      @media screen and (min-width:320px) and (max-width:769px){
-        #header{top:0;background-color: white;}
+        .add{width:25px;height:25px;border:none;margin-left: 140px;padding:0px;border-radius: 5px;}
+        #header{top:0;background-color: white;border-radius: 10px 10px 00px 0px;}
         header span{font-size: 35px;}
         header{padding-left: 10px;font-size: 30px;}
         a{font-size:20px;color: rgb(21, 99, 147);}
-        .topices{display:block;padding-left: 5px;}
+        .topices{display:flex; flex-direction:column;justify-content:center;padding-left: 5px;font-size:20px;display:none;}
+        #buttons{border:none;margin-left:49%;position: fixed;top:20px;left:39%;display:block}
         a:hover{color: #075f6e;}
         .header{background: linear-gradient(to top, #6dd5ed, #2193b0);}
         .title{font-size:30px;}
@@ -71,9 +73,6 @@
         .footer4{margin-top: 30px;}
         .footer4:hover{cursor: none;}
     }
-    @media screen and (min-width:320px) and (max-width:729px){
-        .topices{display:none;}
-    }
     @media screen and (min-width:375px) and (max-width:425px){
         .searchdiv{margin-left: 30px;}
         .topices1{margin-left: 30px;}
@@ -103,8 +102,6 @@
         #header{position:sticky;}
         header{display:flex;flex-wrap:wrap; font-size: 20px;}
         header span{font-size: 20px;}
-        .topices{padding-right: 20px;}
-        .topices a{font-size: 12px;}
         .search{margin-left: 15%;}
         .input{height: 32px;width: 400px;}
         .div{display:flex;gap:30px;margin-left:80px;}
@@ -117,6 +114,8 @@
         .googlemap1{margin-left:120px;}
     }
     @media screen and (min-width:1024px) and (max-width:1400px){
+        #buttons{display:none;}
+        .add{display:none}
         header span{font-size: 30px;}
         header{font-size:30px;padding-left: 10px;} 
         .topices{padding:0px 20px 0px 5px;}
@@ -146,4 +145,7 @@
         .details{padding-left: 50px;}
         .hr2{margin-left: 50px;}
         .footer1{padding-left: 50px;}
+    }
+    @media screen and(min-width:1440px)and (max-width:1450px){
+            #buttons{display:none;}
     }

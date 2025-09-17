@@ -24,7 +24,6 @@
     <div id="header">
         <header><span>&#10063;</span>
             <b>Topic</b>
-            <a href="#">
                 <b class="topices"><a href="">Home</a></b>
                 <b class="topices"><a href="">Browse Topics</a></b>
                 <b class="topices"><a href="">How it works</a></b>
@@ -33,7 +32,7 @@
                 <b class="topices"><a href="">Pages</a></b>
                 <b class="topices"><a href="">Topics Listing</a></b>
                 <b class="topices"><a href="">Contact Form</a></b>
-            </a>
+                <button onclick="myfun()" id="buttons">⇵</button>
         </header>
     </div>
     <div class="header">
@@ -264,5 +263,13 @@
             </div>
         </div>
     </footer>
+    <script>
+        function myfun(){
+            let a=document.getElementsByClassName("topices");
+             for (let b=0;b<a.length;b++) {
+                a[b].style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>

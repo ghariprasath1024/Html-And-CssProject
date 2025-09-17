@@ -26,6 +26,12 @@
             padding-right:30px;
             gap: 30px;
         }
+        b.topices{
+            padding:0px 10px 0px 20px;
+        }
+        #buttons{
+            display:none;
+        }
         a:hover{
             color: #075f6e;
         }
@@ -513,3 +519,4 @@
         p .footer7{
             color: #3ca5af;
         }
+        

@@ -239,7 +239,7 @@
             width: 410px;
             background: linear-gradient(to top,  #299b85, #5ddec4);
             box-shadow: 2px 4px 6px gray;
-            border-radius: 30px;
+            border-radius: 20px;
             transition: transform 0.9s ease;
         }
         .design1:hover{
@@ -263,6 +263,7 @@
             padding-left: 6px;
             height: 250px;
             width: 360px;
+            border-radius: 20px 30px 20px 20px;
         }
         .howtowork{
             height:1000px;

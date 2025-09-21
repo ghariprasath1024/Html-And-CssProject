@@ -265,9 +265,10 @@
     </footer>
     <script>
         function myfun(){
-            let a=document.getElementsByClassName("topices");
-             for (let b=0;b<a.length;b++) {
-                a[b].style.display = "block";
+            let a = document.getElementsByClassName("topices");
+            let lity = a.length > 0 && a[0].style.display === "block";
+            for (let b = 0; b < a.length; b++) {
+                a[b].style.display = lity ? "none" : "block";
             }
         }
     </script>
